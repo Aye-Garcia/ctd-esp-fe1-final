@@ -10,10 +10,12 @@ import './encabezado.css';
  */
 const Encabezado = () => {
 
-    return <header>
+    return (
+        <header>
             <div>
                 <div>
                     <h2>Examen Final de Frontend IV</h2>
+                    <h3>Apruebeme 🙌</h3>
                 </div>
                 <nav>
                     <ul>
@@ -24,6 +26,7 @@ const Encabezado = () => {
                 </nav>
             </div>
     </header>
-}
+    );
+};
 
-export default Encabezado
+export default Encabezado;
